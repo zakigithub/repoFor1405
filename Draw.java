@@ -6,6 +6,6 @@ public class Draw
     {
         Random rand  = new Random();
         int    index = 1 + rand.nextInt(13);
-        System.out.println("Next student is: " + index);
+        System.out.println("Next student might be: " + index);
     }
 }
